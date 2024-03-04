@@ -3,7 +3,7 @@ import "./topbar.css";
 
 export default function Topbar() {
   return (
-    <div className="topbarContainer flex justify-between px-10 py-5 bg-blue-500">
+    <div className="topbarContainer flex justify-between items-center px-10 py-5 bg-blue-500">
       <div className="topbarLeft font-bold text-xl basis-3/12">
         <span className="logo text-white">Social App</span>
       </div>
@@ -22,21 +22,25 @@ export default function Topbar() {
           <span className="topbarLink">Homepage</span>
           <span className="topbarLink">Timeline</span>
         </div>
-        <div className="topbarIcons flex basis-8/12 pl-5 justify-end gap-5">
-          <div className="topbarIconItem relative">
+        <div className="topbarIcons flex basis-8/12 justify-center gap-5">
+          <div className="topbarIconItem cursor-pointer relative">
             <Person />
             <span className="topbarIconBadge">1</span>
           </div>
-          <div className="topbarIconItem relative">
+          <div className="topbarIconItem cursor-pointer relative">
             <Chat />
             <span className="topbarIconBadge">2</span>
           </div>
-          <div className="topbarIconItem relative">
+          <div className="topbarIconItem cursor-pointer relative">
             <Notifications />
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
-        <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
+        <img
+          src="/assets/person/1.jpg"
+          alt=""
+          className="topbarImg w-10 rounded-full cursor-pointer"
+        />
       </div>
     </div>
   );
