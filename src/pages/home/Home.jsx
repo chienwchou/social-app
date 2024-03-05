@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <>
       <Topbar />
-      <div className="homeContainer flex">
-        <Sidebar className="basis-3" />
-        <Feed className="basis-5" />
-        <Rightbar className="basis-4" />
+      <div className="homeContainer flex justify-around">
+        <Sidebar className="basis-3/12" />
+        <Feed className="basis-5/12" />
+        <Rightbar className="basis-4/12" />
       </div>
     </>
   );
