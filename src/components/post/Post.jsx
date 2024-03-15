@@ -15,12 +15,12 @@ export default function Post() {
             <MoreVert />
           </div>
         </div>
-        <div class="postCenter">
+        <div class="postCenter pb-2">
           <span class="postText">Hey! it's my first post</span>
           <img class="postImg" src="/assets/post/1.jpg" alt="" />
         </div>
-        <div class="postBottom">
-          <div class="postBottomLeft flex gap-4">
+        <div class="postBottom flex pb-4 justify-between">
+          <div class="postBottomLeft flex">
             <img class="likeIcon" src="/assets/like.png" alt="" />
             <img class="heartIcon" src="/assets/heart.png" alt="" />
             <span class="postLikeCounter font-bold">32 people liked it</span>
