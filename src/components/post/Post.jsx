@@ -17,7 +17,7 @@ export default function Post() {
         </div>
         <div class="postCenter pb-2">
           <span class="postText">Hey! it's my first post</span>
-          <img class="postImg" src="/assets/post/1.jpg" alt="" />
+          <img class="postImg" src="/assets/post/1.jpeg" alt="" />
         </div>
         <div class="postBottom flex pb-4 justify-between">
           <div class="postBottomLeft flex">
