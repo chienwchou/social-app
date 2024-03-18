@@ -1,0 +1,12 @@
+.shareProfileImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.shareInput:focus {
+  border: none;
+  width: 80%;
+  height: 30px;
+}
