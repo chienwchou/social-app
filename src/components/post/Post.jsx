@@ -1,7 +1,7 @@
 import { MoreVert } from "@mui/icons-material";
 import "./post.css";
 
-export default function Post() {
+export default function Post({ post }) {
   return (
     <div className="post m-4 shadow-xl rounded-md">
       <div className="postWrapper mx-4 my-8">
@@ -9,14 +9,14 @@ export default function Post() {
           <div className="postTopLeft flex items-center gap-4">
             <img className="postProfileImg" src="/assets/person/1.jpg" alt="" />
             <span className="postUsername font-bold">Safak Kocaoglu</span>
-            <span className="postDate text-sm">5 mins ago</span>
+            <span className="postDate text-sm">{post.date}</span>
           </div>
           <div className="postTopRight">
             <MoreVert />
           </div>
         </div>
         <div className="postCenter pb-2">
-          <span className="postText">Hey! it's my first post</span>
+          <span className="postText">{post?.desc}</span>
           <img className="postImg" src="/assets/post/1.jpeg" alt="" />
         </div>
         <div className="postBottom flex pb-4 justify-between">
@@ -26,11 +26,11 @@ export default function Post() {
               <img className="heartIcon" src="/assets/heart.png" alt="" />
             </div>
             <span className="postLikeCounter font-bold">
-              32 people liked it
+              {post.like} people liked it
             </span>
           </div>
           <div className="postBottomRight">
-            <span className="postCommentText">9 comments</span>
+            <span className="postCommentText">{post.comment} comments</span>
           </div>
         </div>
       </div>
