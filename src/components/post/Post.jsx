@@ -1,14 +1,20 @@
 import { MoreVert } from "@mui/icons-material";
 import "./post.css";
+import { Users } from "../../dummyData";
 
 export default function Post({ post }) {
+  const user = Users.filter((u) => u.id === post.userId)[0];
+
+  console.log(user);
   return (
     <div className="post m-4 shadow-xl rounded-md">
       <div className="postWrapper mx-4 my-8">
         <div className="postTop flex justify-between items-center py-2">
           <div className="postTopLeft flex items-center gap-4">
             <img className="postProfileImg" src="/assets/person/1.jpg" alt="" />
-            <span className="postUsername font-bold">Safak Kocaoglu</span>
+            <span className="postUsername font-bold">
+              {Users.filter((u) => u.id === post.userId)[0].username}
+            </span>
             <span className="postDate text-sm">{post.date}</span>
           </div>
           <div className="postTopRight">
