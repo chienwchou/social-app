@@ -28,6 +28,138 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
+          <li className="rightbarFriend flex items-center gap-3">
+            <div className="rightbarProfileImgContainer relative">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/person/1.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername font-bold">John Carter</span>
+          </li>
         </ul>
       </div>
     </div>
