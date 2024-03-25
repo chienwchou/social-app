@@ -3,7 +3,7 @@ import "./topbar.css";
 
 export default function Topbar() {
   return (
-    <div className="topbarContainer flex justify-between items-center px-10 py-5 bg-blue-500">
+    <div className="fixed topbarContainer flex justify-between items-center px-10 py-5 bg-blue-500 w-full">
       <div className="topbarLeft font-bold text-xl basis-3/12">
         <span className="logo text-white">Social App</span>
       </div>

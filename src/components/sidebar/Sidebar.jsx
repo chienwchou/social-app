@@ -13,7 +13,7 @@ import "./sidebar.css";
 
 export default function Sidebar({ className, ...props }) {
   return (
-    <div className={"sidebar px-5 overflow-y-scroll " + className}>
+    <div className={"sidebar px-5 overflow-y-scroll sticky " + className}>
       <div className="sidebarWrapper mt-5 font-semibold">
         <ul className="sidebarList flex flex-col gap-6">
           <li className="sidebarListItem flex items-center gap-3">
