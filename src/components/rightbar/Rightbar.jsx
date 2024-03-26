@@ -17,7 +17,7 @@ export default function Rightbar({ className, ...props }) {
         />
         <h4 className="rightbarTitle font-bold mb-2">Online Friends</h4>
         <ul className="rightbarFriendList">
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -28,7 +28,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -39,7 +39,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -50,7 +50,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -61,7 +61,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -72,7 +72,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -83,7 +83,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -94,7 +94,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -105,7 +105,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -116,7 +116,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -127,7 +127,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -138,7 +138,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
@@ -149,7 +149,7 @@ export default function Rightbar({ className, ...props }) {
             </div>
             <span className="rightbarUsername font-bold">John Carter</span>
           </li>
-          <li className="rightbarFriend flex items-center gap-3">
+          <li className="rightbarFriend flex items-center gap-3 pb-3">
             <div className="rightbarProfileImgContainer relative">
               <img
                 className="rightbarProfileImg"
